@@ -29,6 +29,7 @@
 @import url(jquery.fancybox.min.css);
 @import url(jquery-ui.css);
 @import url(nice-select.css);
+@import url(custom-styles.css);
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
@@ -411,13 +412,13 @@ button {
 }
 
 
-/** business section **/
+/** functionality section **/
 
-.business {
+.functionality {
      padding-top: 90px;
 }
 
-.business .titlepage span {
+.functionality .titlepage span {
      color: #0891f8;
      font-size: 30px;
      font-family: 'Baloo Chettan', cursive;
@@ -427,41 +428,41 @@ button {
      display: inline-block;
 }
 
-.business .titlepage h2 {
+.functionality .titlepage h2 {
      color: #272f43;
      font-weight: normal;
 }
 
-.business .business_box {
+.functionality .functionality_box {
      text-align: center;
 }
 
-.business .business_box figure {
+.functionality .functionality_box figure {
      margin: 0;
 }
 
-.business .business_box figure img {
+.functionality .functionality_box figure img {
      width: 100%;
 }
 
-.business .business_box p {
+.functionality .functionality_box p {
      color: #000;
      font-size: 17px;
      line-height: 28px;
      padding: 35px 0px;
 }
 
-.business .business_box .read_more {
+.functionality .functionality_box .read_more {
      background: #252525;
      color: #fff;
 }
 
-.business .business_box .read_more:hover {
+.functionality .functionality_box .read_more:hover {
      background: #0891f8;
 }
 
 
-/** end business section **/
+/** end functionality section **/
 
 
 /** projects section **/
