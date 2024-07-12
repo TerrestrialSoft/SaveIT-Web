@@ -8,14 +8,34 @@
 }
 
 .custom-card {
-    border-radius: 1rem;
-    padding: 0.5rem 5rem;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.2);
+    width: 18rem;
+    height: 18rem;
     scale: 0.8;
+}
+
+.card-image {
+    width: 75%;
+    height: 75%;
+    padding: 3rem 3rem 2rem 3rem;
+}
+
+.storage-name {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .header .container-fluid .row {
     align-items: center;
+}
+
+.coming-soon-text {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.coming-soon-img {
+    filter: grayscale(90%);
+    opacity: 0.6;
 }
     
 .navigation.navbar-dark .navbar-nav .nav-link {
